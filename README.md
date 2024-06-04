@@ -1,6 +1,6 @@
 # ligra
 
-ligra is an open source image projector build from scratch and based off of flea marked parts. ligra is not neccessarily a PCB-project nor a single thing, but rather an idea of how to design your own image-projection system. It is an introduction on how to create light-grafittis, how to share messages at large.
+ligra is an open source image projector build from scratch and based off of flea market parts. ligra is not neccessarily a PCB-project nor a single thing, but rather an idea of how to design your own image-projection system. It is an introduction on how to create light-grafittis, how to share messages at large.
 
 <table>
   <tbody>
