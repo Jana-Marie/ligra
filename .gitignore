@@ -7,4 +7,4 @@ fp-lib-table
 *.step
 *.stp
 bom
-
+*.lck
