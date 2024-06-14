@@ -6,10 +6,10 @@ This board serves as power-input and LED controller for a 0-3A 0-5V LED. It curr
   <tbody>
     <tr>
       <td>
-        <img src="images/pcb-back-1.png"/>
+        <img src="/images/pcb-back-1.png"/>
       </td>
       <td>
-        <img src="images/pcb-back-2.png"/>
+        <img src="/images/pcb-back-2.png"/>
       </td>
     </tr>
   </tbody>
