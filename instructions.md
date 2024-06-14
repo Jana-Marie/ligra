@@ -27,6 +27,26 @@ This guide assumes that you are building the same ligra as I did, I will try to 
 
 Given that this is rather an instruction on how to design and build various projectors instead of a speicific one, you should think about which tools you have at your disposal, what your targeted usecase may be and what materials you have and can work with. Before starting, read all the instructions and plan your ligra accordingly.
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-44-12.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-45-36.png"/>
+      </td>
+  </tr>
+  <tr>
+      <td colspan="2">
+        <img src="/images/Screenshot from 2024-06-14 23-45-00.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Please consult the OpenSCAD script 'ligra.scad' for this phase aswell.
+
 ## BOM
 
 For one ligra, you will need ruffly the following parts.
