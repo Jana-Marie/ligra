@@ -23,6 +23,10 @@ This repo is very WIP and shall be expanded soon :3
 
 ligra essentially functions as a backwards camera, well, most projectors do. This becomes more visible when we talk about its inner workings, it's heart and most fixed element is the lens, a Canon FD lens in our case. But instead of using it to project and image **onto** a 35mm film slide, we will project light **through** a ruffly 35mm film slide-sized, image forming medium (i.e. a 2D printed stencil). This light will enter the lens from the back, projecting an image onto a scene with the properties of the lens (focal length, aperture and focus). Given the quality of even early lenses, we can expect some sharp and crisp projections. [WIP ...]
 
+## [Instructions](https://github.com/Jana-Marie/ligra/blob/main/instructions.md)
+
+(^ click me)
+
 ## Todo
 
 - [ ] Add assembly instructions
