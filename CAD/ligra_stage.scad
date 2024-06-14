@@ -19,12 +19,15 @@ if($preview){
 
 module stage_motor_rot_assembly(spacing=45){
     stage_motor_rot_base(spacing);
-    stage_motor_rot_rotor();
-    translate([0,0,4.1])stencil_cage();
-    translate([0,0,6])stencil_cage_counter();
+    color("PaleVioletRed")stage_motor_rot_rotor();
+    color("HotPink")translate([0,0,4.1])stencil_cage();
+    color("DeepPink")translate([0,0,6])stencil_cage_counter();
     if($preview)translate([0,0,6.0])stencil();
-    *translate([0,0,-3])stage_motor_rot_gear();
-    
+        
+    // optional for motor use, but handy for hand usage
+    translate([0,0,-3])rotate([180,0,0])stage_motor_rot_gear_l();
+    // optional for motor use
+    translate([-34.5,0,-3])rotate([180,0,0])stage_motor_rot_gear_s();
 }
 
 // motor-rot stage for 2D printed stencils, this is the most useful one imo
@@ -35,7 +38,7 @@ module stage_motor_rot_base(spacing=45){
     ch = 25;
     wt = 4;
     difference(){
-        union(){
+        color("LightPink")union(){
             for(i = [0:90:270]){
                 // corner
                 rotate([0,0,45+i])translate([spacing-wt/2-1/2,0,ch/2-0.5])
@@ -188,24 +191,6 @@ module stencil(){
     color("LightSteelBlue")cylinder(d=38,h=0.1);
 }
 
-// other, clean me uwu 
-module stage_motor_rot_gear(){
-    difference(){
-        union(){
-            // base cylinder
-            translate([0,0,-1])cylinder(d=49,h=4);
-            cylinder(d=52,h=2.45);
-        }union(){
-            // optical path
-            translate([0,0,-2])cylinder(d=40,h=12);
-            
-            // magnets!!!1!
-            for(i = [0:1:2]){
-                rotate([0,0,360/3*i+60])translate([42/2+1,0,-1.1])cylinder(d=3,h=6);
-            }
-        }
-    }
-}
 
 module stage_motor_rot_gear_l(spacing=45){
     color("yellow")
@@ -233,7 +218,7 @@ module stage_motor_rot_gear_l(spacing=45){
     }
 }
 
-module stage_fix_gear_s(spacing=45){
+module stage_motor_rot_gear_s(spacing=45){
     color("yellow")
     intersection(){
         difference(){
@@ -247,6 +232,26 @@ module stage_fix_gear_s(spacing=45){
             translate([0,0,0.5])cylinder(d=12,h=2);
             translate([0,0,2.5])cylinder(d1=12,d2=7.5,h=0.5);
             translate([0,0,00])cylinder(d1=7.5,d2=12,h=0.5);
+        }
+    }
+}
+
+
+// other, clean me uwu 
+module stage_motor_rot_gear(){
+    difference(){
+        union(){
+            // base cylinder
+            translate([0,0,-1])cylinder(d=49,h=4);
+            cylinder(d=52,h=2.45);
+        }union(){
+            // optical path
+            translate([0,0,-2])cylinder(d=40,h=12);
+            
+            // magnets!!!1!
+            for(i = [0:1:2]){
+                rotate([0,0,360/3*i+60])translate([42/2+1,0,-1.1])cylinder(d=3,h=6);
+            }
         }
     }
 }

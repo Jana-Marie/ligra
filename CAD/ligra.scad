@@ -46,8 +46,7 @@ module projector_28_80_300(){
     color("Tomato")translate([0,0,160])tripod_plate(45);
 
     // stencil stage
-    translate([0,0,offx-40+2.1])rotate([0,0,0])stencil();
-    color("MediumVioletRed")translate([0,0,offx-40])STENCILcage(45);
+    translate([0,0,offx-40])stage_motor_rot_assembly(45);
     
     // PAR Spot
     translate([0,0,120])rotate([180,0,0])par_spot_cage(45);
@@ -77,8 +76,7 @@ module projector_70_210_400(){
     color("Tomato")translate([0,0,80])tripod_plate(45);
     
     // stencil stage
-    translate([0,0,offx-40+2.1])rotate([0,0,0])stencil();
-    color("MediumVioletRed")translate([0,0,offx-40])STENCILcage(45);
+    translate([0,0,offx-40])stage_motor_rot_assembly();
     
     // PAR Spot
     translate([0,0,120])rotate([180,0,0])par_spot_cage(45);
