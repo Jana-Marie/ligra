@@ -22,7 +22,7 @@ This guide assumes that you are building the same ligra as I did, I will try to 
 ## BOM
 
 For one ligra, you will need ruffly the following parts.
-
+***
 * 1 Lens (Canon FD works great here)
   * Low f-number is preferable (\<f4.0 ideally)
   * Variable focal legth preferred (70-210mm works great for me, 28-80mm is nice for smaller rooms)
@@ -65,6 +65,7 @@ For one ligra, you will need ruffly the following parts.
 ***
 * Optionally a [3D print](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/tripod_plate.stl) for a tripod to attach to
   * 4x sets of nuts + bolts for the extrusions
+***
 
 ## 3D prints
 
