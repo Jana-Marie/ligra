@@ -3,13 +3,19 @@
 This document shall serve as a comprehenive assembly-manual. Feel free to diverge at any point to build the ligra you want.
 
 ## Table of Contents
-=================
 
 * [Preface](#preface)
 * [Planning](#planning)
 * [BOM](#bom)
 * [3D-Prints](#3d-prints)
 * [Required Tools](#required-tools)
+* [Detailed Instructions](#detailed-instructions)
+  * [Lens](#lens)
+  * [Stencil](#Stencil)
+  * [Light-Source](#light-source)
+  * [Tripod-Mount](#tripod-mount)
+  * [Aluminium-Extrusions](#aluminium-extrusions)
+  * [Assembly](#assembly)
 
 ## Preface
 
@@ -17,7 +23,7 @@ This guide assumes that you are building the same ligra as I did, I will try to 
 
 ## Planning
 
-[WIP]
+Given that this is rather an instruction on how to design and build various projectors instead of a speicific one, you should think about which tools you have at your disposal, what your targeted usecase may be and what materials you have and can work with. Before starting, read all the instructions and plan your ligra accordingly.
 
 ## BOM
 
@@ -66,6 +72,7 @@ For one ligra, you will need ruffly the following parts.
 * Optionally a [3D print](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/tripod_plate.stl) for a tripod to attach to
   * 4x sets of nuts + bolts for the extrusions
 ***
+* Optionally a tripod
 
 ## 3D prints
 
@@ -73,4 +80,23 @@ For one ligra, you will need ruffly the following parts.
 
 ## Required Tools
 
-[WIP]
+* Hex-drivers (or whichever screwhead you choose)
+* M5 tapping kit
+* 3D printer, FDM, SLA or SLS will do
+* Exactor knife (for cleaning up 3D prints)
+* Optionally a 2D printer for printing out stencils
+  * See [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md)
+
+## Detailed Instructions
+
+### Lens
+
+### Stencil
+
+### Light-Source
+
+### Tripod-Mount
+
+### Aluminium-Extrusions
+
+### Assembly
