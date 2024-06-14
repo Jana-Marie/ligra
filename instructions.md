@@ -23,6 +23,8 @@ This document shall serve as a comprehenive assembly-manual. Feel free to diverg
 
 This guide assumes that you are building the same ligra as I did, I will try to make it clear, when something is either optional or specific to my hardware/your hardware. All in all I want to show you, how you can design your own projector, Gobo, light-graffiti, art-, whatever-light-machine. I want to show you, how you can bring a lens, a light source and something image forming together to crate something that allows you to be creative.
 
+Each ligra consists of various parts that all invidially fulfill a purpose, all working together to make ligra what it is. Each part can be individually modified, build to purpose or replaced. I tried to reflect this by showing how to build each part, but also how to assemble all of them into ligra. Feel free to replace or modify any part that you need to have changed. One ligra basically consists of the frame, the light source, the stage (a stencil in my case), a tripod mount and the lens. You can see each of these as an assembly to be changed internally or as a whole, however, they all fulfill a purpose and cannot simply be removed.
+
 ## Planning
 
 Given that this is rather an instruction on how to design and build various projectors instead of a speicific one, you should think about which tools you have at your disposal, what your targeted usecase may be and what materials you have and can work with. Before starting, read all the instructions and plan your ligra accordingly.
