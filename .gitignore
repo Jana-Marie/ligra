@@ -2,6 +2,9 @@
 *-backups
 gerber
 fp-info-cache
+fp-lib-table
 *-bak
 *.step
 *.stp
+bom
+
