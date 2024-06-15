@@ -11,9 +11,36 @@ if($preview){
         color("HotPink")translate([10*i,10*j+20,0])foot();
     }
     color("PaleVioletRed")translate([35,-10,0])wall_patterned();
+    color("LightPink")translate([-95,-65,0])front_pcb();
+    color("Pink")translate([-95,65,0])back_pcb();
 } else {
     foot();
     *cap();
+}
+
+module back_pcb(){
+    difference(){
+        union(){
+            translate([0,0,0.8])minkowski(){
+                rotate([0,0,45])cube([20,20,0.001],center=true);
+                cube([106.65-30,106.65-30,1.6],center=true);
+            }
+        }union(){
+        }
+    }
+}
+
+module front_pcb(){
+    difference(){
+        union(){
+            translate([0,0,0.8])minkowski(){
+                rotate([0,0,45])cube([20,20,0.001],center=true);
+                cube([106.65-30,106.65-30,1.6],center=true);
+            }
+        }union(){
+            translate([0,0,-0.2])cylinder(r=42.5,h=2);
+        }
+    }
 }
 
 module foot(){

@@ -51,6 +51,19 @@ module projector_28_80_300(){
     // PAR Spot
     translate([0,0,120])rotate([180,0,0])par_spot_cage(45);
     
+    // PCB
+    color("DarkslateGray")translate([0,0,302.6])rotate([180,0,0])front_pcb();
+    color("DarkslateGray")translate([0,0,-1])rotate([180,0,0])back_pcb();
+    
+    
+    for(i=[-1:2:1],j=[-1:2:1]){
+        // foot
+        color("DarkTurquoise")translate([i*38.6,j*38.6,-1.6])rotate([180,0,0])foot();
+        // cap
+        color("Red")translate([i*38.6,j*38.6,-2])rotate([0,0,45])cap();
+        color("Red")translate([i*38.6,j*38.6,302])rotate([180,0,45])cap();
+    }
+    
     // Obsolete, flashlight light source
     *translate([0,0,20])flashlight();
     *color("Olive")translate([0,0,166])flashlight_cage(45);
@@ -80,6 +93,18 @@ module projector_70_210_400(){
     
     // PAR Spot
     translate([0,0,120])rotate([180,0,0])par_spot_cage(45);
+    
+    // PCB
+    color("DarkslateGray")translate([0,0,402.6])rotate([180,0,0])front_pcb();
+    color("DarkslateGray")translate([0,0,0])rotate([180,0,0])back_pcb();
+    
+    for(i=[-1:2:1],j=[-1:2:1]){
+        // foot
+        color("DarkTurquoise")translate([i*38.6,j*38.6,-1.6])rotate([180,0,0])foot();
+        // cap
+        color("Red")translate([i*38.6,j*38.6,-2])rotate([0,0,45])cap();
+        color("Red")translate([i*38.6,j*38.6,402])rotate([180,0,45])cap();
+    }
     
     // Obsolete, flashlight light source
     *translate([0,0,20])flashlight();
