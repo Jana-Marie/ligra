@@ -25,11 +25,15 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
 
 ## [Instructions](https://github.com/Jana-Marie/ligra/blob/main/instructions.md)
 
-(^ click me)
+(Want to build one? ^ click me)
 
 ## [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md)
 
-(^ click me)
+(Have one and need stencils? ^ click me)
+
+## [Staging-Stages](https://github.com/Jana-Marie/ligra/blob/main/staging-stages.md)
+
+(Have one and want to be more creative? ^ click me)
 
 ## Todo
 
