@@ -122,8 +122,23 @@ With ligra, the aluminium extrusion will make up the whole frame, holding everyt
 
 ### Lens
 
+While the lens can be seen as the heart of ligra, it actually is one of the simplest parts/steps here. Mostly because it already is a finished part that we don't really need to modify. We will just need to build a mount to fix it to the frame. Not only do we need a mount, this mount will be inegral to ligras structure and sturdyness, so let's keep it thicc and easy.
 
- 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-39-46.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-40-12.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Our lensmount will actually be made out of two 3D printed and one pre-fabricated part. The latter is a lenscap that we need to buy, pretty much any lenscap should do, I got mine from amazon. One of the 3D printed parts will be joined with the lenscap, firmly attaching lens and frame to each other. The second 3D printed part will be a more loose support of the lenses front opening, we don't want the full levering force of the lens being exorted into the rear mount. This mount however, cannot be fully fixed to the lens as it moves and turns during focus and focal-length change.
+
 ### Stage
 
 The stage ist probably the part where you can be the most creative, as already teased there are just so many ways of intercepting and transforming your light source. For more ideas, check out the [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md) page. We will focus here on a, optionally motorized rotating stage, that hosts 2D laser-printed stencils. With stencil I mean foil that has been printed on. 
