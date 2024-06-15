@@ -11,12 +11,12 @@ This document shall serve as a comprehenive assembly-manual. Feel free to diverg
 * [Required Tools](#required-tools)
 * [Detailed Instructions](#detailed-instructions)
   * [Lens](#lens)
-  * [Stencil](#Stencil)
+  * [Stage](#Stage)
   * [Light-Source](#light-source)
     * [PAR-Spot](#par-spot)
     * [Flashlight](#flashlight)
   * [Tripod-Mount](#tripod-mount)
-  * [Aluminium-Extrusions](#aluminium-extrusions)
+  * [Frame](#frame)
   * [Assembly](#assembly)
 
 ## Preface
@@ -82,6 +82,7 @@ For one ligra, you will need ruffly the following parts.
   * A whole bunch of [Stencil-cages]() [FIXME]
   * A whole bunch of 3mm diameter, 2mm height disc-magnets
   * 4x ballbearings with 4mm inner diameter, 9mm outer diameter and 3-4mm height
+  * Some M3x16 screws
 ***
 * Optionally [1 **front-PCB** as blind](https://github.com/Jana-Marie/ligra/tree/main/ligra_front)
   * 4x M5x16mm screws
@@ -123,7 +124,63 @@ With ligra, the aluminium extrusion will make up the whole frame, holding everyt
 
 
  
-### Stencil
+### Stage
+
+The stage ist probably the part where you can be the most creative, as already teased there are just so many ways of intercepting and transforming your light source. For more ideas, check out the [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md) page. We will focus here on a, optionally motorized rotating stage, that hosts 2D laser-printed stencils. With stencil I mean foil that has been printed on. 
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-38-24.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-38-51.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+The design I came up with is illustrated above. It is for the most part 3D printed, making production quite accessible to me. The light pink, big outer part will be screwed to the frame.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-42-35.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-43-40.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-42-41.png"/>
+      </td>
+      <td>
+        <img src="/images/IMG_1345.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+It hosts 4 ball-bearings with an inner diameter of 4mm, an outer diameter of 9mm and a height of ~4mm. They will be pushed into place altogether with dark-pink ring into their respective slots. Before you do that, you should put 9 magnets with a size of 3mm diameter and 2mm height into the 9 larger slots of the inner ring. It's important that all magnets face the same direction! Since it is a tight fit, they all should stay in place, you can of course fill all slots up with some UV-cure resin or glue. Now you can gently push the ring and all four ball-bearings into place. Afterwards, turn over the assembly and screw the big yellow gear into the ring. You can ignore the small gear for now, it can be mounted to a motor and used to automatically turn the stencil this stage will host. If you don't need this, skip it, the big gear will still be handy for aligning the stencil manually
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-58-11.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-59-12.png"/>
+      </td>
+      <td>
+        <img src="/images/signal-2024-06-15-020726_002.jpeg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Next up, you can print a whole bunch of these stencil frames. Each will clamp and hold one stencil, each will also host 3 magnets that allow the holder to snap to the stage. This allows for easy stencil preparation and exchange, just remove the old frame from the stage by hand, it will come right off and put a new one in place, it will gently snap to it. You can now go ahead and print stencils on foil, cut them and puit each into its own holder. Add the magnets in a similar fashion to what you did before, make sure that they all are aligned with your stage.
 
 ### Light-Source
 
@@ -133,6 +190,6 @@ With ligra, the aluminium extrusion will make up the whole frame, holding everyt
 
 ### Tripod-Mount
 
-### Aluminium-Extrusions
+### Frame
 
 ### Assembly
