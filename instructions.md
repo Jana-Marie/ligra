@@ -191,7 +191,7 @@ Your finished stage should look similiar to this.
   <tbody>
     <tr>
       <td>
-        <img src="/images/Screenshot from 2024-06-15 01-43-00"/>
+        <img src="/images/Screenshot from 2024-06-15 01-43-00.png"/>
       </td>
     </tr>
   </tbody>
