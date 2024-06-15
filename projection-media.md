@@ -5,22 +5,51 @@ A collection of different projection-media ideas.
 ## Table of Contents
 
 * [2D Print](#2d-print)
-* [2.5D Print](#2.5d-print)
+  * [Step prints](#step-prints)
 * [Metal-Stencil](#metal-stencil)
+* [2.5D Print](#2.5d-print)
 * [LCD](#lcd)
 
 ## 2D Print
 
-[WIP]
+Arguably the most easy and fast way is to 2D print a stencil on laser or inkjet printer. To do so, you will need to buy some printable foil, take note that it must be compatible with the printing technology (i.e. laser/toner, inkjet, riso??, ...) available to you. Sometimes such foil is called "overhead-projector media". You can find a template in [`/stencils/`](/stencils/2D_stencil_print.svg), called `2D_stencil_print.svg`. It is compatible with the [stage mentioned in the instructions](https://github.com/Jana-Marie/ligra/blob/main/instructions.md#Stage).
+
+You will find 24 black circles in the document, place your design within the green border that is visible on these black dots. Note that there will be considerable vignetting towards their edges, center your designs well and keep some distance. I've left four designs as an example. Everything white will become visible/illuminated, everything black will be blocked out and everything inbetween will be visible as inbetween. Get creative! Oh and one last thing, turn off the visibility of the green layer before printing to dinA4, it is meant as a guide and is not to be printed.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 16-40-58.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 16-41-32.png"/>
+      </td>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 16-42-16.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Step prints
+
+You can also stack multiple stencils, moving them in the focal plane of the projector. With this you can create blurry backgrounds or sceneries, while maintaining sharper subjects.
+
+## Metal stencil
+
+Instead of a 2D printed stencil, you can of course also design and buy a metal stencil from a PCB/Stencil vendor like JLCpcb, PCBway, AllPCB, OSHStencils and others.
+
+Furthermore, you can head over to AliExpress and other vendors to buy pre-made Gobo-Projector stencils, [like these.](https://www.aliexpress.com/item/1005004907991627.html). A diameter between 37.5mm to 25mm should work, ~36mm is an ideal size. Please adapt the [stencil cage](https://github.com/Jana-Marie/ligra/blob/main/instructions.md#Stage) mentioned in the stage section accordingly.
 
 ## 2.5D Print
 
-[WIP]
+If you have a 3D printer, which you likely do if you are replicating this, you can of course directly print a stencil on the printer itself, with the filament you are using to print the stencil cage. Never tried this though..
 
 ## LCD
 
-[WIP]
+Lastly, this is on my todo list, you can of course replace the whole static stencil with an LCD screen (or any other light disrupting display technology). Would love to know how this looks like.
 
-## LCD
+## Other ideas?
 
-[WIP]
+Any other ideas? Pleeeease send them to me, would love to test them.
