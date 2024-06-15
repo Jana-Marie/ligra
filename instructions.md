@@ -207,7 +207,30 @@ Your finished stage should look similiar to this. (Please ignore the frame in th
 
 #### PAR-Spot
 
-#### Flashlight 
+#### Flashlight
+
+In my earlier tests I used a flashlight as light-source and honestly I cannot recommend that enough if you are planning on testing the optical path. It's much easier to handle, easier to adapt and can freely held by hand at first. It helped me in establishing this project. I don't use it anymore, I've gotten myself a better light-source, still, I would like to quickly illuminate (heh!) its assembly.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 02-27-37.png"/>
+      </td>
+      <td>
+        <img src="/images/signal-2024-06-14-210620_004.jpeg"/>
+      </td>
+      <td>
+        <img src="/images/signal-2024-06-14-210620_005.jpeg"/>
+      </td>
+      <td>
+        <img src="/images/signal-2024-06-14-210620_007.jpeg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+It's quite simple and I don't think I need to explain a lot here, this LEDLenser flashlight is pressed into this simple block with four hair-ties and a counter-ring. This assembly is then asserted into ligra from the back. You can see on the last image, that this version is somewhat old already, based on the trivial, fixed stencil mount visible. 
 
 ### Tripod-Mount
 
