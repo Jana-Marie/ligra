@@ -141,7 +141,9 @@ Our lensmount will actually be made out of two 3D printed and one pre-fabricated
 
 ### Stage
 
-The stage ist probably the part where you can be the most creative, as already teased there are just so many ways of intercepting and transforming your light source. For more ideas, check out the [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md) page. We will focus here on a, optionally motorized rotating stage, that hosts 2D laser-printed stencils. With stencil I mean foil that has been printed on. 
+The stage ist probably the part where you can be the most creative, as already teased there are just so many ways of intercepting and transforming your light source. For more ideas, check out the [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md) page.
+
+We will focus here on a, optionally motorized rotating stage, that hosts 2D laser-printed stencils. With stencil I mean foil that has been printed on. Initially I worked on 3-point rotary stage, which would allow for trapez correction. That idea got pushed to the back, to make room for a simpler stage, that is easier to iterate on. Eventually I will return to developing more stages. Check out the [Staging-Stages](https://github.com/Jana-Marie/ligra/blob/main/staging-stages.md) page.
 
 <table>
   <tbody>
