@@ -49,6 +49,16 @@ Given that this is rather an instruction on how to design and build various proj
 
 Please consult the OpenSCAD script 'ligra.scad' for this phase aswell.
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/drawing.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## BOM
 
 For one ligra, you will need ruffly the following parts.
