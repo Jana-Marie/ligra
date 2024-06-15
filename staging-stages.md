@@ -11,10 +11,10 @@ There is of course more than one posssible stage, this page is here to collect i
 
 ## Open Ideas
 
- - [] 35mm Film Stage
- - [] Dia-Film Stage
- - [] Plexiglas-Block with Effect-Particles Inside
- - [] Effect-Foil 
+ - [ ] 35mm Film Stage
+ - [ ] Dia-Film Stage
+ - [ ] Plexiglas-Block with Effect-Particles Inside
+ - [ ] Effect-Foil 
 
 ## Motor-Rotating Stage
 
