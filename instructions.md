@@ -156,6 +156,9 @@ The design I came up with is illustrated above. It is for the most part 3D print
         <img src="/images/Screenshot from 2024-06-15 01-42-41.png"/>
       </td>
       <td>
+        <img src="/images/Screenshot from 2024-06-15 01-44-55.png"/>
+      </td>
+      <td>
         <img src="/images/IMG_1345.jpg"/>
       </td>
     </tr>
@@ -181,6 +184,18 @@ It hosts 4 ball-bearings with an inner diameter of 4mm, an outer diameter of 9mm
 </table>
 
 Next up, you can print a whole bunch of these stencil frames. Each will clamp and hold one stencil, each will also host 3 magnets that allow the holder to snap to the stage. This allows for easy stencil preparation and exchange, just remove the old frame from the stage by hand, it will come right off and put a new one in place, it will gently snap to it. You can now go ahead and print stencils on foil, cut them and puit each into its own holder. Add the magnets in a similar fashion to what you did before, make sure that they all are aligned with your stage.
+
+Your finished stage should look similiar to this.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-15 01-43-00"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Light-Source
 
