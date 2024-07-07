@@ -14,8 +14,8 @@ if($preview){
     color("LightPink")translate([-95,-65,0])front_pcb();
     color("Pink")translate([-95,65,0])back_pcb();
 } else {
-    foot();
-    *cap();
+    *foot();
+    cap();
 }
 
 module back_pcb(){

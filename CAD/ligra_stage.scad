@@ -15,6 +15,7 @@ $fn=100;
 if($preview){
     stage_motor_rot_assembly();
 }else{
+    stencil_cage();
 }
 
 module stage_motor_rot_assembly(spacing=45){

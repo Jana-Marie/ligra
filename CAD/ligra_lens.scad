@@ -18,6 +18,7 @@ if($preview){
     translate([70,0,0])lens_fd_70_210();
     color("DeepPink")translate([70,0,180])frontcage_fd_70_210();
 }else{
+    frontcage_fd_70_210();
 }
 
 
