@@ -78,7 +78,7 @@ For one ligra, you will need ruffly the following parts.
 * A **light source**
   * Can be a flashlight, a LED with a lens or anything that outputs a narrow and uniform (10-15°) beam of light
   * I use [a cheap 3W PAR spotlight](https://www.ebay.de/itm/314966001859) (yes it says 30W, but it consumes about 3W)
-* A set of 3D prints to hold the light source in place ([see 3D prints](#3d-prints))
+* 1x [3D printed Par spot holder](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_par_spot_stencil_cage.stl)
 ***
 * 4x [20x20mm **aluminium extrusions**](https://www.motedis.com/en/Profile-20x20-B-type-slot-6)
   * 400mm length works great for most lenses
@@ -86,10 +86,10 @@ For one ligra, you will need ruffly the following parts.
 * 16x nuts + bolts for said extrusions (likely M4 or M5)
 ***
 * Optionally a set of 3D prints to hold the **stencil** in place ([see 3D prints](#3d-prints))
-  * 1x [Stencil stage](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/stencil_stage.stl)
-  * 1x [Stencil rotor](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/stencil_rotor.stl)
-  * 1x [Stencil counter-top](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/stencil_counter_top.stl)
-  * A whole bunch of [Stencil-cages]() [FIXME]
+  * 1x [Stencil stage](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_base.stl)
+  * 1x [Stencil rotor](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_rotor.stl)
+  * 1x [Stencil gear](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_gear_l.stl)
+  * A whole bunch of [Stencil-cages](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stencil_cage.stl) + [Cage-lids](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stencil_cage_counter.stl)
   * A whole bunch of 3mm diameter, 2mm height disc-magnets
   * 4x ballbearings with 4mm inner diameter, 9mm outer diameter and 3-4mm height
   * Some M3x16 screws
@@ -97,14 +97,14 @@ For one ligra, you will need ruffly the following parts.
 * Optionally [1 **front-PCB** as blind](https://github.com/Jana-Marie/ligra/tree/main/ligra_front)
   * 4x M5x16mm screws
   * 4x M5 washer
-  * 4x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/end_cap.stl)
+  * 4x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_cap.stl)
 ***
 * Optionally [1 **back-PCB** to drive the light source](https://github.com/Jana-Marie/ligra/tree/main/ligra_back)
   * 4x M5x16mm screws
-  * 4x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/end_cap.stl)
-  * 4x [3D printed feet](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/foot.stl)
+  * 4x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_cap.stl)
+  * 4x [3D printed feet](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_foot.stl)
 ***
-* Optionally a [3D print](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/tripod_plate.stl) for a **tripod** to attach to
+* Optionally a [3D print](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_tripod_tripod_plate.stl) for a **tripod** to attach to
   * 4x sets of nuts + bolts for the extrusions
   * 1x [¼" thread insert](https://www.amazon.de/-/en/ruthex-Threaded-Insert-Bushings-Printing/dp/B09MTS6ZZQ/ref=sr_1_16)
 * Optionally a tripod
@@ -132,6 +132,13 @@ With ligra, the aluminium extrusion will make up the whole frame, holding everyt
 
 ### Lens
 
+**3D Print**
+
+* 1x Supporting FD-front-cage
+    * [e.g. for 70-210mm](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/fd_frontcage_70_210.stl)
+    * [e.g. for 28-85mm](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/fd_frontcage_28_80.stl)
+* 1x [FD-cap to cage-mount](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/fd_back_conn.stl)
+
 While the lens can be seen as the heart of ligra, it actually is one of the simplest parts/steps here. Mostly because it already is a finished part that we don't really need to modify. We will just need to build a mount to fix it to the frame. Not only do we need a mount, this mount will be inegral to ligras structure and sturdyness, so let's keep it thicc and easy.
 
 <table>
@@ -150,6 +157,13 @@ While the lens can be seen as the heart of ligra, it actually is one of the simp
 Our lensmount will actually be made out of two 3D printed and one pre-fabricated part. The latter is a lenscap that we need to buy, pretty much any lenscap should do, I got mine from amazon. One of the 3D printed parts will be joined with the lenscap, firmly attaching lens and frame to each other. The second 3D printed part will be a more loose support of the lenses front opening, we don't want the full levering force of the lens being exorted into the rear mount. This mount however, cannot be fully fixed to the lens as it moves and turns during focus and focal-length change.
 
 ### Stage
+
+**3D Print**
+
+* 1x [Stencil stage](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_base.stl)
+* 1x [Stencil rotor](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_rotor.stl)
+* 1x [Stencil gear](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stage_motor_rot_gear_l.stl)
+* A whole bunch of [Stencil-cages](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stencil_cage.stl) + [Cage-lids](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_stage_stencil_cage_counter.stl)
 
 The stage ist probably the part where you can be the most creative, as already teased there are just so many ways of intercepting and transforming your light source. For more ideas, check out the [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md) page.
 
@@ -234,6 +248,10 @@ Your finished stage should look similiar to this. (Please ignore the frame in th
 
 #### PAR-Spot
 
+**3D Print**
+
+1x [Par spot holder](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_par_spot_stencil_cage.stl)
+
 #### Flashlight
 
 In my earlier tests I used a flashlight as light-source and honestly I cannot recommend that enough if you are planning on testing the optical path. It's much easier to handle, easier to adapt and can freely held by hand at first. It helped me in establishing this project. I don't use it anymore, I've gotten myself a better light-source, still, I would like to quickly illuminate (heh!) its assembly.
@@ -261,6 +279,27 @@ It's quite simple and I don't think I need to explain a lot here, this LEDLenser
 
 ### Tripod-Mount
 
+**3D Print**
+
+* 1x [Tripod-Plate](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_tripod_tripod_plate.stl)
+
 ### Frame
 
+After choosing the four alluminium extrusions you want to use, I recommend 20x20mm stock with a length of 400mm, you will need to tap both ends of each bar with a M5 tap. If you want to save on parts, you can probably leave out two bars and just use the bottom two.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/signal-2024-07-07-143311.jpeg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Assembly
+
+**3D Print**
+
+* 8x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_cap.stl)
+* 4x [3D printed feet](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_foot.stl)
