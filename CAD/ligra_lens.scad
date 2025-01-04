@@ -8,6 +8,7 @@ $fn=100;
 // lens-front can freely move
 
 if($preview){
+/*
     color("HotPink")translate([-70,0,-16])lenscage_fd();
     translate([-70,0,-15])lenscap_fd();
     translate([-70,0,0])lens_fd_28_80();
@@ -17,10 +18,106 @@ if($preview){
     translate([70,0,-15])lenscap_fd();
     translate([70,0,0])lens_fd_70_210();
     color("DeepPink")translate([70,0,180])frontcage_fd_70_210();
+    */
+    frontcage_fd_38_95();
 }else{
-    frontcage_fd_70_210();
+    frontcage_fd_38_95();
 }
 
+// 35-105mm lens
+// frontcage
+module frontcage_fd_38_95(spacing=45){
+    // corner
+    ch = 23;
+    wt = 4;
+    difference(){
+        union(){
+            for(i = [0:90:270]){
+                // corner
+                rotate([0,0,45+i])translate([spacing-wt/2-1/2,0,ch/2])
+                minkowski(){
+                    cube([wt-1,19-1,ch-1],center=true);
+                    rotate([0,90,0])cylinder(d=1,h=1);
+                }
+                hull(){
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
+                }
+                
+                // middle sec
+                cylinder(d=70+6,h=8);
+
+                // connectors
+                for(j = [-1:2:1]){
+                    hull(){
+                        rotate([0,90,45+i])translate([-0.5,19/2-0.5,spacing-wt])cylinder(d=1,h=wt);
+                        rotate([0,90,45+i])translate([-0.5,-19/2+0.5,spacing-wt])cylinder(d=1,h=wt);
+                        rotate([0,0,45+i])translate([spacing-wt/2,(-19/2+0.5)*j,0.5+12])cube([wt,1,1],center=true);
+                        rotate([0,0,45+i-30*j])translate([(70+3)/2,0,0])cylinder(d=1,h=8);
+                    }
+                }
+            }
+            
+            
+        }union(){
+            // corner
+            for(i = [0:90:270]){
+                rotate([0,90,45+i])translate([-ch+9.5,0,spacing-wt-1])cylinder(d=5,h=wt+2);
+                rotate([0,90,45+i])translate([-ch+9.5,0,spacing-wt-wt-0.01])cylinder(d=10,h=wt);
+            }
+            // middle sec
+            translate([0,0,-1])cylinder(d=70,h=15);
+        }
+    }
+}
+
+
+// 35-105mm lens
+// frontcage
+module frontcage_fd_35_105(spacing=45){
+    // corner
+    ch = 23;
+    wt = 4;
+    difference(){
+        union(){
+            for(i = [0:90:270]){
+                // corner
+                rotate([0,0,45+i])translate([spacing-wt/2-1/2,0,ch/2])
+                minkowski(){
+                    cube([wt-1,19-1,ch-1],center=true);
+                    rotate([0,90,0])cylinder(d=1,h=1);
+                }
+                hull(){
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
+                }
+                
+                // middle sec
+                cylinder(d=75+6,h=8);
+
+                // connectors
+                for(j = [-1:2:1]){
+                    hull(){
+                        rotate([0,90,45+i])translate([-0.5,19/2-0.5,spacing-wt])cylinder(d=1,h=wt);
+                        rotate([0,90,45+i])translate([-0.5,-19/2+0.5,spacing-wt])cylinder(d=1,h=wt);
+                        rotate([0,0,45+i])translate([spacing-wt/2,(-19/2+0.5)*j,0.5+12])cube([wt,1,1],center=true);
+                        rotate([0,0,45+i-30*j])translate([(75+3)/2,0,0])cylinder(d=1,h=8);
+                    }
+                }
+            }
+            
+            
+        }union(){
+            // corner
+            for(i = [0:90:270]){
+                rotate([0,90,45+i])translate([-ch+9.5,0,spacing-wt-1])cylinder(d=5,h=wt+2);
+                rotate([0,90,45+i])translate([-ch+9.5,0,spacing-wt-wt-0.01])cylinder(d=10,h=wt);
+            }
+            // middle sec
+            translate([0,0,-1])cylinder(d=75,h=15);
+        }
+    }
+}
 
 // 70-210mm lens
 // frontcage
@@ -38,8 +135,8 @@ module frontcage_fd_70_210(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // middle sec
@@ -102,8 +199,8 @@ module frontcage_fd_28_80(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // middle sec
@@ -198,8 +295,8 @@ module lenscage_fd(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // middle sec
@@ -250,8 +347,8 @@ module lensfrontcage_fd(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // middle sec

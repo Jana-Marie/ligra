@@ -14,8 +14,10 @@ $fn=100;
 
 if($preview){
     stage_motor_rot_assembly();
+    color("HotPink")translate([0,0,4.1])stencil_cage(27.1);
 }else{
-    stencil_cage();
+    //stencil_cage(27.1);
+    stage_motor_rot_base(45);
 }
 
 module stage_motor_rot_assembly(spacing=45){
@@ -48,8 +50,8 @@ module stage_motor_rot_base(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2-0.5])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2-0.5])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2-0.5])cube([wt,7.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2-0.5])cube([wt+0.33,6.5,ch],center=true);
                 }
             }
             // middle cylinder
@@ -130,19 +132,19 @@ module stage_motor_rot_rotor(){
     }
 }
 
-module stencil_cage_counter(){
+module stencil_cage_counter(sd=39.2){
     // Stencil
     difference(){
         union(){
-            translate([0,0,0])cylinder(d=39.2,h=1);
+            translate([0,0,0])cylinder(d=sd,h=1);
         }union(){
             // inner cylinders
-            translate([0,0,-1])cylinder(d=35,h=11);
+            translate([0,0,-1])cylinder(d=sd-4,h=11);
         }
     }
 }
 
-module stencil_cage(){
+module stencil_cage(sd=39.2){
     // Stencil
     *translate([0,0,1.55])union(){
         color("black")cylinder(d=35,h=0.201);
@@ -164,8 +166,8 @@ module stencil_cage(){
             }
         }union(){
             // inner cylinders
-            translate([0,0,1.5])cylinder(d=39.2,h=11);
-            translate([0,0,-1])cylinder(d=35,h=11);
+            translate([0,0,1.5])cylinder(d=sd,h=11);
+            translate([0,0,-1])cylinder(d=sd-4,h=11);
             
             // magnets
             for(i = [0:1:2]){
@@ -438,8 +440,8 @@ module stage(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 if(i == 0 || i == 270){
                     hull(){
@@ -513,9 +515,6 @@ module stage(spacing=45){
     }
 }
 
-
-
-
 module STENCILcage(spacing=40){
     // corner
     ch = 22;
@@ -530,8 +529,8 @@ module STENCILcage(spacing=40){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // bars
@@ -555,8 +554,6 @@ module STENCILcage(spacing=40){
                     }
                 }
             }
-            
-            
         }union(){
             // corner
             for(i = [0:90:270]){

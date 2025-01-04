@@ -42,8 +42,8 @@ module flashlight_cage(spacing=45){
                     rotate([0,90,0])cylinder(d=1,h=1);
                 }
                 hull(){
-                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,9,ch],center=true);
-                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2,0,ch/2])cube([wt,8.5,ch],center=true);
+                    rotate([0,0,45+i])translate([spacing-wt/2+0.33/2,0,ch/2])cube([wt+0.33,7.5,ch],center=true);
                 }
                 
                 // middle sec
