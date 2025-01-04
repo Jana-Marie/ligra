@@ -27,13 +27,56 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
 
 (Want to build one? ^ click me)
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img height="300" src="images/drawing.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## [Projection-Media](https://github.com/Jana-Marie/ligra/blob/main/projection-media.md)
 
 (You have one and need stencils? ^ click me)
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img height="300" src="images/signal-2024-06-15-020726_002.jpeg"/>
+      </td>
+      <td>
+        <img height="300" src="images/0b2d5d8d6d914120.jpg"/>
+      </td>
+      <td>
+        <img height="300" src="images/da240891a95fc2dd.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## [Staging-Stages](https://github.com/Jana-Marie/ligra/blob/main/staging-stages.md)
 
-(You have one and want to work on a different stage? ^ click me)
+(You have one and want to work on a different stage, a different way of adding media for projection? ^ click me)
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img height="300" src="IMG_1345.jpg"/>
+      </td>
+      <td>
+        <img height="300" src="Screenshot from 2025-01-04 12-20-47.png"/>
+      </td>
+      <td>
+        <img height="300" src="Screenshot from 2025-01-04 12-24-28.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Todo
 
@@ -42,6 +85,6 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
 - [ ] Add 3D print instructions (5% done)
 - [ ] Add BOM (0% done)
 - [ ] Add drawings (60% done)
-- [ ] Make projection-media page more expressive
+- [x] Make projection-media page more expressive
 - [ ] Design more stages
 - [x] Cleanup OpenSCAD file
