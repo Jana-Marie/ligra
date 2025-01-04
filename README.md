@@ -87,11 +87,11 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
 
 ## Todo
 
-- [ ] Add assembly instructions (65% done)
-  - [ ] Refine by adding real images (15% done)
+- [ ] Add assembly instructions (85% done)
+  - [ ] Refine by adding real images (45% done)
 - [ ] Add 3D print instructions (5% done)
 - [ ] Add BOM (0% done)
 - [ ] Add drawings (60% done)
 - [x] Make projection-media page more expressive
-- [ ] Design more stages
+- [x] Design more stages
 - [x] Cleanup OpenSCAD file
