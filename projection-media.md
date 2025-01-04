@@ -10,6 +10,7 @@ Similar to a camera, where only a part of the imaged are is in focus on the sens
   * [Step prints](#step-prints)
 * [Metal-Stencil](#metal-stencil)
 * [2.5D Print](#2.5d-print)
+* [Oil-Disc](#Oil-Disc)
 * [LCD](#lcd)
 
 ## 2D Print
@@ -72,7 +73,7 @@ If you have a 3D printer, which you likely do if you are replicating this, you c
 
 Lastly, this is on my todo list, you can of course replace the whole static stencil with an LCD screen (or any other light disrupting display technology). Would love to know how this looks like.
 
-## Oil-Discs
+## Oil-Disc
 
 Another fun projection media are oil disks, from e.g. Mathmos. They require some modification to the frame as they are usually too big to fit and need to rotated constantly.
 
