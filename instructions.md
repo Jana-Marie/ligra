@@ -16,8 +16,9 @@ This document shall serve as a comprehenive assembly-manual. Feel free to diverg
     * [PAR-Spot](#par-spot)
     * [Flashlight](#flashlight)
   * [Tripod-Mount](#tripod-mount)
+  * [Interlock](#tripod-mount)
   * [Frame](#frame)
-  * [Assembly](#assembly)
+* [Assembly](#assembly)
 
 ## Preface
 
@@ -109,6 +110,9 @@ For one ligra, you will need ruffly the following parts.
   * 1x [¼" thread insert](https://www.amazon.de/-/en/ruthex-Threaded-Insert-Bushings-Printing/dp/B09MTS6ZZQ/ref=sr_1_16)
 * Optionally a tripod
 ***
+* Optionally two [3D printed](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_interlock.stl) **interlocks** for stacking ligras
+  * 4x sets of nuts + bolts for the extrusions
+***
 
 ## 3D prints
 
@@ -139,7 +143,12 @@ With ligra, the aluminium extrusion will make up the whole frame, holding everyt
     * [e.g. for 28-85mm](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/fd_frontcage_28_80.stl)
 * 1x [FD-cap to cage-mount](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/fd_back_conn.stl)
 
-While the lens can be seen as the heart of ligra, it actually is one of the simplest parts/steps here. Mostly because it already is a finished part that we don't really need to modify. We will just need to build a mount to fix it to the frame. Not only do we need a mount, this mount will be inegral to ligras structure and sturdyness, so let's keep it thicc and easy.
+**Parts**
+signal-2025-01-04-134830_004.jpeg
+* 1x FD-Lens
+* 1x FD-Lenscap
+
+While the lens can be seen as the heart of ligra, it actually is one of the simplest parts/steps here. Mostly because it already is a finished part that we don't really need to modify. We will just need to build a mount to fix it to the frame. Not only do we need a mount, this mount will be inegral to ligras structure and sturdyness, so let's keep it thicc and easy. To affic the lens to the mount you will need to drill out the back of the back-cap. It can then be affixed to the lens-mount and the lens can be screwed in.
 
 <table>
   <tbody>
@@ -149,6 +158,14 @@ While the lens can be seen as the heart of ligra, it actually is one of the simp
       </td>
       <td>
         <img src="/images/Screenshot from 2024-06-14 23-40-12.png"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="/images/signal-2025-01-04-134830_004.jpeg"/>
+      </td>
+      <td>
+        <img src="/images/signal-2025-01-04-140044_002.jpeg"/>
       </td>
     </tr>
   </tbody>
@@ -246,11 +263,29 @@ Your finished stage should look similiar to this. (Please ignore the frame in th
 
 ### Light-Source
 
+Depending on your light-source you will need a way of driving it. As I've choosen a 10W LED, I designed a board that can drive it from a USB power source, it is called the back-board and fully optional. [Back-Board](https://github.com/Jana-Marie/ligra/tree/main/ligra_back)
+
 #### PAR-Spot
 
 **3D Print**
 
 1x [Par spot holder](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_par_spot_stencil_cage.stl)
+
+**Parts**
+
+1x [Par spot](https://www.ebay.de/itm/314966001859)
+* 4x sets of nuts + bolts for the extrusions
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/signal-2025-01-04-134830_005.jpeg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### Flashlight
 
@@ -283,9 +318,48 @@ It's quite simple and I don't think I need to explain a lot here, this LEDLenser
 
 * 1x [Tripod-Plate](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_tripod_tripod_plate.stl)
 
+**Parts**
+
+* 1x [¼" thread insert](https://www.amazon.de/-/en/ruthex-Threaded-Insert-Bushings-Printing/dp/B09MTS6ZZQ/ref=sr_1_16
+* 4x sets of nuts + bolts for the extrusions
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/Screenshot from 2024-06-14 23-40-50.png"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+A 3D printed plate that allows you to attach ligra to a typical tripod with a ¼" thread. The thread is a heat-insert, please make sure you sink it into the correct side of the 3D print. Also make sure the print is sturdy and the tripod is sufficient to support the weight. Screw the plate to the bottom of ligra, I usually like to start the whole build with this plate as it provides a solid base with two beams.
+
+### Interlock
+
+**3D Print**
+
+* 2x [Interlock](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_interlock.stl)
+
+**Parts**
+
+* 4x sets of nuts + bolts for the extrusions
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/signal-2025-01-04-134830_002.jpeg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+A screw-in block that allows for easier stacking of ligras. There is not a whole lot behind it, besides alignemnt, please use tension straps to affix ligras together.
+
 ### Frame
 
-After choosing the four alluminium extrusions you want to use, I recommend 20x20mm stock with a length of 400mm, you will need to tap both ends of each bar with a M5 tap. If you want to save on parts, you can probably leave out two bars and just use the bottom two.
+After choosing the four alluminium extrusions you want to use, I recommend 20x20mm stock with a length of 400mm (for 70-210mm lenses) or 300mm (for 24-105mm lenses), you will need to tap both ends of each bar with a M5 tap. If you want to save on parts, you can reduce the build to just use the bottom extrusions.
 
 <table>
   <tbody>
@@ -297,9 +371,14 @@ After choosing the four alluminium extrusions you want to use, I recommend 20x20
   </tbody>
 </table>
 
-### Assembly
+## Assembly
 
 **3D Print**
 
 * 8x [3D printed endcaps](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_cap.stl)
 * 4x [3D printed feet](https://github.com/Jana-Marie/ligra/blob/main/CAD/stls/ligra_misc_foot.stl)
+
+**Parts**
+
+* 8x Bolts
+
