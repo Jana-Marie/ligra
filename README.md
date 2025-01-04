@@ -38,7 +38,7 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
   <tbody>
     <tr>
       <td>
-        <img height="300" src="images/drawing.jpg"/>
+        <img height="220" src="images/drawing.jpg"/>
       </td>
     </tr>
   </tbody>
@@ -52,13 +52,13 @@ ligra essentially functions as a backwards camera, well, most projectors do. Thi
   <tbody>
     <tr>
       <td>
-        <img height="280" src="images/signal-2024-06-15-020726_002.jpeg"/>
+        <img height="220" src="images/signal-2024-06-15-020726_002.jpeg"/>
       </td>
       <td>
-        <img height="280" src="images/0b2d5d8d6d914120.jpg"/>
+        <img height="220" src="images/0b2d5d8d6d914120.jpg"/>
       </td>
       <td>
-        <img height="280" src="images/da240891a95fc2dd.jpg"/>
+        <img height="220" src="images/da240891a95fc2dd.jpg"/>
       </td>
     </tr>
   </tbody>
