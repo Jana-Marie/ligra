@@ -38,11 +38,31 @@ You will find 24 black circles in the document, place your design within the gre
 
 You can also stack multiple stencils, moving them in the focal plane of the projector. With this you can create blurry backgrounds or sceneries, while maintaining sharper subjects.
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/0b2d5d8d6d914120.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Metal stencil
 
 Instead of a 2D printed stencil, you can of course also design and buy a metal stencil from a PCB/Stencil vendor like JLCpcb, PCBway, AllPCB, OSHStencils and others.
 
 Furthermore, you can head over to AliExpress and other vendors to buy pre-made Gobo-Projector stencils, [like these.](https://www.aliexpress.com/item/1005004907991627.html). A diameter between 37.5mm to 25mm should work, ~36mm is an ideal size. Please adapt the [stencil cage](https://github.com/Jana-Marie/ligra/blob/main/instructions.md#Stage) mentioned in the stage section accordingly.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/528b30a321972028.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 2.5D Print
 
@@ -51,6 +71,26 @@ If you have a 3D printer, which you likely do if you are replicating this, you c
 ## LCD
 
 Lastly, this is on my todo list, you can of course replace the whole static stencil with an LCD screen (or any other light disrupting display technology). Would love to know how this looks like.
+
+## Oil-Discs
+
+Another fun projection media are oil disks, from e.g. Mathmos. They require some modification to the frame as they are usually too big to fit and need to rotated constantly.
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/263e70de6c5d269f.jpg"/>
+      </td>
+      <td>
+        <img src="/images/11bd2950d9579037.jpg"/>
+      </td>
+      <td>
+        <img src="/images/da240891a95fc2dd.jpg"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Other ideas?
 
