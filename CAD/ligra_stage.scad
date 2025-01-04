@@ -13,8 +13,10 @@ $fn=100;
 // this file is still a bit messy ;-;
 
 if($preview){
-    stage_motor_rot_assembly();
-    color("HotPink")translate([0,0,4.1])stencil_cage(27.1);
+    //stage_motor_rot_assembly();
+    //color("HotPink")translate([0,0,4.1])stencil_cage(27.1);
+    stage();
+    translate([0,0,13])stage_rot_yaw();
 }else{
     //stencil_cage(27.1);
     stage_motor_rot_base(45);

@@ -3,6 +3,7 @@ use <ligra_par_spot.scad>
 use <ligra_tripod.scad>
 use <ligra_lens.scad>
 use <ligra_stage.scad>
+use <ligra_lava_disk.scad>
 use <ligra_frame.scad>
 use <ligra_misc.scad>
 

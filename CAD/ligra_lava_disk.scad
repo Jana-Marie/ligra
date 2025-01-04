@@ -7,7 +7,10 @@ $fn=100;
 
 if($preview){
     // frame
-    color("silver")frame(30,45);
+    intersection(){
+      translate([0,50/2,0])cube([200,50,200],center=true);
+      color("silver")frame(30,45);
+    }
     translate([0,-15.5,1.5+4])lava_disk();
     lava_disk_stage();
     mirror([1,0,0])lava_disk_stage();
