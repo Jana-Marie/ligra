@@ -14,8 +14,15 @@ It's not strictly a Gobo, rather a way of building a system that may resemble on
         <img src="images/signal-2024-06-01-161329_004.jpeg"/>
       </td>
     </tr>
+    <tr>
+      <td colspan="2">
+        <img src="images/e5e7f5f40d520a76.jpg"/>
+      </td>
+    </tr>
   </tbody>
 </table>
+
+
 
 This repo is very WIP and shall be expanded soon :3
 
